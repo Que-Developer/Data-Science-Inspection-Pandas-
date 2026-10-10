@@ -1,0 +1,15 @@
+Check ID,Check,Total records,Checked records,Passed records,Flagged records,Untested records,Check result
+CHK01,Name available,1880465,1880465,919986,960479,0,Flagged
+CHK02,Containment date available,1880465,1880465,988934,891531,0,Flagged
+CHK03,No exact repeated source rows,1880465,1880465,1514917,365548,0,Flagged
+CHK04,Name has no outside spaces,1880465,919986,842282,77704,960479,Flagged
+CHK05,State code matches the reference list,1880465,1880465,1880465,0,0,Passed
+CHK06,Informative reported cause,1880465,1880465,1713742,166723,0,Flagged
+CHK07,Size supplies an ordinary number,1880465,1880465,1880465,0,0,Passed
+CHK08,Year supplies an ordinary number,1880465,1880465,1880465,0,0,Passed
+CHK09,Discovery value supplies a date,1880465,1880465,1880465,0,0,Passed
+CHK10,Containment value supplies a date,1880465,988934,988934,0,891531,Passed
+CHK11,Positive fire size,1880465,1880465,1880465,0,0,Passed
+CHK12,Whole year in the extract period,1880465,1880465,1880465,0,0,Passed
+CHK13,Containment is not before discovery,1880465,988934,988934,0,891531,Passed
+CHK14,Reported and discovery years agree,1880465,1880465,1880461,4,0,Flagged
