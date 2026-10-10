@@ -1,0 +1,216 @@
+{
+  "full_dataset": {
+    "notebooks": [
+      {
+        "notebook": "01_Understand_the_Dataset.ipynb",
+        "executed_code_cells": 6,
+        "source_records": 1880465,
+        "raw_unchanged": true
+      },
+      {
+        "notebook": "02_Completeness_and_Repeated_Records.ipynb",
+        "executed_code_cells": 7,
+        "source_records": 1880465,
+        "raw_unchanged": true
+      },
+      {
+        "notebook": "03_Representations_and_Conversions.ipynb",
+        "executed_code_cells": 12,
+        "source_records": 1880465,
+        "raw_unchanged": true
+      },
+      {
+        "notebook": "04_Rules_and_Relationships.ipynb",
+        "executed_code_cells": 7,
+        "source_records": 1880465,
+        "raw_unchanged": true
+      },
+      {
+        "notebook": "05_Findings_and_Inspection_Report.ipynb",
+        "executed_code_cells": 6,
+        "source_records": 1880465,
+        "raw_unchanged": true
+      }
+    ],
+    "environment": {
+      "python": "3.12.14",
+      "pandas": "2.2.3",
+      "openpyxl": "3.1.5",
+      "copy_on_write": true,
+      "display": "Notebook display objects captured; processing code executed unchanged"
+    },
+    "full_source_records": 1880465,
+    "checks": [
+      {
+        "Check ID": "CHK01",
+        "Check": "Name available",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 919986,
+        "Flagged records": 960479,
+        "Untested records": 0,
+        "Check result": "Flagged"
+      },
+      {
+        "Check ID": "CHK02",
+        "Check": "Containment date available",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 988934,
+        "Flagged records": 891531,
+        "Untested records": 0,
+        "Check result": "Flagged"
+      },
+      {
+        "Check ID": "CHK03",
+        "Check": "No exact repeated source rows",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1514917,
+        "Flagged records": 365548,
+        "Untested records": 0,
+        "Check result": "Flagged"
+      },
+      {
+        "Check ID": "CHK04",
+        "Check": "Name has no outside spaces",
+        "Total records": 1880465,
+        "Checked records": 919986,
+        "Passed records": 842282,
+        "Flagged records": 77704,
+        "Untested records": 960479,
+        "Check result": "Flagged"
+      },
+      {
+        "Check ID": "CHK05",
+        "Check": "State code matches the reference list",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1880465,
+        "Flagged records": 0,
+        "Untested records": 0,
+        "Check result": "Passed"
+      },
+      {
+        "Check ID": "CHK06",
+        "Check": "Informative reported cause",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1713742,
+        "Flagged records": 166723,
+        "Untested records": 0,
+        "Check result": "Flagged"
+      },
+      {
+        "Check ID": "CHK07",
+        "Check": "Size supplies an ordinary number",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1880465,
+        "Flagged records": 0,
+        "Untested records": 0,
+        "Check result": "Passed"
+      },
+      {
+        "Check ID": "CHK08",
+        "Check": "Year supplies an ordinary number",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1880465,
+        "Flagged records": 0,
+        "Untested records": 0,
+        "Check result": "Passed"
+      },
+      {
+        "Check ID": "CHK09",
+        "Check": "Discovery value supplies a date",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1880465,
+        "Flagged records": 0,
+        "Untested records": 0,
+        "Check result": "Passed"
+      },
+      {
+        "Check ID": "CHK10",
+        "Check": "Containment value supplies a date",
+        "Total records": 1880465,
+        "Checked records": 988934,
+        "Passed records": 988934,
+        "Flagged records": 0,
+        "Untested records": 891531,
+        "Check result": "Passed"
+      },
+      {
+        "Check ID": "CHK11",
+        "Check": "Positive fire size",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1880465,
+        "Flagged records": 0,
+        "Untested records": 0,
+        "Check result": "Passed"
+      },
+      {
+        "Check ID": "CHK12",
+        "Check": "Whole year in the extract period",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1880465,
+        "Flagged records": 0,
+        "Untested records": 0,
+        "Check result": "Passed"
+      },
+      {
+        "Check ID": "CHK13",
+        "Check": "Containment is not before discovery",
+        "Total records": 1880465,
+        "Checked records": 988934,
+        "Passed records": 988934,
+        "Flagged records": 0,
+        "Untested records": 891531,
+        "Check result": "Passed"
+      },
+      {
+        "Check ID": "CHK14",
+        "Check": "Reported and discovery years agree",
+        "Total records": 1880465,
+        "Checked records": 1880465,
+        "Passed records": 1880461,
+        "Flagged records": 4,
+        "Untested records": 0,
+        "Check result": "Flagged"
+      }
+    ],
+    "issue_rows": 8,
+    "workbook_sheets": [
+      "Workbook_Guide",
+      "Check_Catalogue",
+      "Check_Log",
+      "Issue_Log",
+      "Evidence_CHK01",
+      "Evidence_CHK02",
+      "Evidence_CHK03",
+      "Evidence_CHK04",
+      "Evidence_CHK06",
+      "Evidence_CHK10",
+      "Evidence_CHK13",
+      "Evidence_CHK14"
+    ],
+    "complete_evidence_counts_verified": true,
+    "warnings": []
+  },
+  "small_cases": {
+    "mixed_dataset_records": 12,
+    "fourteen_manual_expected_counts_passed": true,
+    "all_passed_rerun_records": 3,
+    "stale_outputs_replaced": true,
+    "all_missing_records": 2,
+    "all_missing_checks_untested": true
+  },
+  "course_target": {
+    "python": "3.14",
+    "pandas": "3.0.5",
+    "executed_here": false
+  }
+}
